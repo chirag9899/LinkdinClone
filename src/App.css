@@ -1,0 +1,26 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f2ef;
+    align-items: center;
+}
+
+.appBody {
+    display: flex;
+    margin-top: 35px;
+    max-width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media(max-width: 960px) {
+    .app {
+        width: 100vw;
+    }
+
+    .appBody {
+        margin-top: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

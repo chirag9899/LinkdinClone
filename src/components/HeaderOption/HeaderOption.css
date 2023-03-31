@@ -1,0 +1,38 @@
+.headerOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    color: gray;
+}
+
+.headerOption:hover {
+    color: black;
+}
+
+.headerOptionTitle {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.headerOptionIcon {
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+@media (max-width: 960px) {
+    .headerOption {
+        margin-right: 5px;
+    }
+
+    .headerOptionTitle {
+        font-size: 6px;
+    }
+
+    .headerOptionIcon {
+        height: 10px !important;
+        width: 10px !important;
+    }
+}

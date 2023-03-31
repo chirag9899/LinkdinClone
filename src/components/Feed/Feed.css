@@ -1,0 +1,82 @@
+.feed {
+    flex: 0.6;
+    margin: 0 20px;
+}
+
+.feedInputContainer {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feedInput {
+    border: 1px solid lightgray;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    padding-left: 15px;
+}
+
+.feedInput > form {
+    width: 100%;
+    display: flex;
+
+}
+
+.feedInput > form > input {
+    border: none;
+    outline: none;
+    flex: 1;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.feedInput > form > button {
+    display: none;
+}
+
+.feedInputOptions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 960px) {
+    .feed {
+        width: 85vw;
+        flex: 1;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feedInputContainer {
+        padding: 5px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .feedInput {
+        padding: 5px;
+        padding-left: 8px;
+    }
+
+    .feedInput > .MuiSvgIcon-root {
+        font-size: 15px !important;
+    }
+
+    .feedInput > form > input {
+        margin-left: 5px;
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    .feedInput > form > button {
+        display: inline;
+        font-size: 8px;
+        border: none;
+        color: #0a66c2;
+        background-color: white;
+    }
+}
